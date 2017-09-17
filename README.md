@@ -1,5 +1,5 @@
 # 2017_IMY320_Empty_Coffee_Cups
- 
+ Phase 1: 
 Introduction
 
 For this project, we have been tasked with creating an interactive, advertising website for the game we are developing for IMY 300. The game is a 3D low poly survival game and consists of three levels. We plan to incorporate several of the design trends that have been taught in class. The website will be designed and crafted to maximise good UX design patterns and trends. All content generated for the website will be created by us for the intents of this project. This is our proposed design: 
@@ -38,8 +38,8 @@ Biomes / Creatures Page
  
 The creatures and biomes pages will be designed similarly. We chose red as a bold contrast to the black. This serves to link with the vivid color trend, also red is a predominant hue in level one of the game which is a desert. We used the polygon block as a background to the wolf to add a rich background and the style of the game is low poly. It’s beige to match the idea of level one being a desert. We’ve used the two-thirds placement to create an asymmetrical look. The heading “desert fox” will animate in. The individual links in the navigation are animated when hovered over. The text “lorem” on the side will rotate when hovered over and expand when clicked on: 
  
-Below is an idea of the subtle animation we plan to implement for the navigation when hovered over: 
- 
+Phase 2: 
+https://cataclysm.000webhostapp.com/character.html
 
 Bibliography
 Gambiero Bodini. (2017). Gambiero Bodini. Retrieved from GambieroBodini.com: http://www.giampierobodino.com/en/
