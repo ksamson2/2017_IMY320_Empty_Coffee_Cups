@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8"/>
+		<title>Cataclysm About</title> 
+      	<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="jquery-3.2.1.js"></script>
+		<script src="script.js"></script>
+    </head>
+    <body class="aboutBody">
+    	<div class="creature-nav">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div id="about">
+                <a href="about.html">About</a>
+            </div>
+            <div id="creatures">
+                <a href="bomb-cactus.html">Creatures</a>
+            </div>
+            <div id="biomes">
+                <a href="desert.html">Biomes</a>
+            </div>
+            <div id="character">
+                <a href="character.html">Character</a>
+            </div>
+        </div>
+    	<br/>
+        <img src="images/yellow.png" class="right"/>
+		<div class="flip-container" id="about-title" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front">
+					<center><h1 class="frontText">About</h1></center>
+				</div>
+				<div class="back">
+					<center><h1 class="backText">About</h1></center>
+				</div>
+			</div>
+			
+		</div>
+		<div class="topFloat"></div>
+		<div class="topFloat2"></div>
+		<div id="aboutText">
+			<p > Cataclysm is a survival game in a world that is suddenly dying before you. Your objective is to make it
+            to the end of each level in the hopes of eventually finding a land of peace.</p>
+		</div>
+        <br />
+        <h2 id="meet"> Meet the team: </h2>
+        <br /><br />
+        <ul class="pic"> 
+            
+            <li class="team" id="Nw"> <a class="btn btnhead" data-popup-open="popup-1" href="#"><img src="images/NJ.jpg" /><h4 class="btnhead">Morolong Moratioa</h4></a></li>
+            <li class="team"><a class="btn btnhead" data-popup-open="popup-2" href="#"><img src="images/Cam.png" /> <h4 class="btnhead">Camille Samson</h4></a> </li>
+            <li class="team" id="michaela"><a class="btn btnhead" data-popup-open="popup-3" href="#"> <img src="images/michaela.jpg" /><h4 class="btnhead">Michaela Van Zyl</h4></a></li>
+        </ul>
+        <br />
+
+        
+ 
+<div class="popup" data-popup="popup-1">
+    <div class="popup-inner">
+        <h2 class="popHead">Morolong Moratioa</h2>
+        <h3 class="rank"> Builder (Design Consultant)</h3>
+        <p class="popbod"> He was mainly in charge of layout and page design<br />
+            Email: n.moratioa@gmail.com </p>
+        <p><a class="popclose" data-popup-close="popup-1" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-1" href="#">x</a>
+    </div>
+</div>
+
+<div class="popup" data-popup="popup-2">
+    <div class="popup-inner">
+        <h2 class="popHead">Camille Samson</h2>
+        <h3 class="rank"> Lord Commander (Project Manager)</h3>
+        <p class="popbod"> Camille handled various aspects, her major focus being level design and basic modelling as well as the game's ambient music. She dabbled with some of the UI design. Within the site, she helped with layout and handled animations and design.<br />
+            Email:kimsamson2.0@gmail.com </p>
+        <p><a class="popclose" data-popup-close="popup-2" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-2" href="#">x</a>
+    </div>
+</div>
+
+<div class="popup" data-popup="popup-3">
+    <div class="popup-inner">
+        <h2 class="popHead">Michaela Van Zyl</h2>
+        <h3 class="rank"> Steward (UI designer)</h3>
+        <p class="popbod"> Michaela handled the User Interface design and basic modelling. Within the site, she handled transitions, design and navigation.<br />
+            Email:michaelavz@live.co.za</p>
+        <p><a class="popclose" data-popup-close="popup-3" href="#">Close</a></p>
+        <a class="popup-close" data-popup-close="popup-3" href="#">x</a>
+    </div>
+</div>
+
+       <div id="nightwatch"> <img src="images/tnw.jpg" alt="tnw">  <h2 id="meet2">The Night's Watch</h2></div>
+
+	 </body>
+</html>

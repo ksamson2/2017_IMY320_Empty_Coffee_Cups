@@ -1,0 +1,693 @@
+@font-face{
+	font-family: "Arsenal-Regular";
+	src: url(fonts/Arsenal-Regular.otf);
+}
+@font-face{
+	font-family: "Zelda";
+	src: url(fonts/ZELDA.ttf);
+}
+
+@font-face{
+	font-family: "BebasNeue";
+	src: url(fonts/BebasNeue.otf);
+}
+@font-face{
+	font-family: "Economica-Regular";
+	src: url(fonts/Economica-Regular.ttf);
+}
+
+h1{
+	font-size:6em;
+	font-family: "Zelda", sans-serif;
+	color: #000;
+}
+
+.container{
+    max-width: 720px;
+}
+#home-bod{
+	background-color: #000;
+}
+.home-nav{
+	font-family: "Economica-Regular",sans-serif;
+	font-size: 45px;
+	text-decoration: none;
+	color: #b7b7b7;
+
+}
+.home-nav:hover{
+	color: #494949;
+	text-decoration: none;
+
+}
+#home-title{
+	position: absolute;
+	z-index: 25;
+	font-size: 8em;
+	color: #000;
+	bottom: -10%;
+}
+#pic1{
+	height:100%;
+	overflow: hidden;
+	border-bottom-color: black;
+	border-bottom-style: solid;
+	border-bottom: black;
+	z-index: -1;
+	
+}
+#pic2{
+	height:100%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+#pic3{
+	height:100%;
+	overflow: hidden;
+}
+#pic4{
+	height:100%;
+	overflow: hidden;
+	opacity: 0.8;
+}
+.border {
+	border: 0px;
+    padding-bottom: 0px;
+	width: 0px;
+	height: 150px;
+	position: relative;
+}
+#output{
+	position: absolute;
+	top:0%;
+	left:-90%;
+	height:24.5%;
+	width:75%;
+	overflow: hidden;
+	z-index: -1;
+}
+#output2{
+	z-index: -1;
+	position: absolute;
+	top:25%;
+	left:-90%;
+	height:24.5%;
+	width:70%;	
+	overflow: hidden;
+}
+#output3{
+	z-index: -1;
+	position: absolute;
+	top:50%;
+	left:-90%;
+	height:24.5%;
+	width:78%;
+	overflow: hidden;
+}
+#output4{
+	z-index: -1;
+	position: absolute;
+	top:75%;
+	left:-90%;
+	height:24.5%;
+	width:84%;
+	overflow: hidden;	
+}
+
+#o2l a{
+	float:left;
+	position:relative;
+	left: 90%;
+	text-decoration: none;
+}
+#o2l a::hover{
+	color: white;
+}
+#link1{
+	position: absolute;
+	font-size: 4.2em;
+	right:55%;
+	top:20%;
+}
+#link2{
+	position: absolute;
+	font-size: 4em;
+	right:25%;
+	top:33%;
+}
+#link3{
+	position: absolute;
+	font-size: 3.3em;
+	right:15%;
+	top:47%;
+}
+#link4{
+	position: absolute;
+	font-size: 4.2em;
+	right:8%;
+	top:60%;
+}
+/*char style */
+#character-body{
+	background-color: #ab0303;
+}
+#chartext{
+	z-index: -1;
+	float:right;
+	position: relative;
+	left:20%;
+	color: #000;
+	background-color: #ab0303;
+	width: 40%;
+	height:80%;
+	font-family: "Arsenal-Regular",sans-serif;
+	font-size: 130%;
+}
+
+#charover{
+	float:right;
+	position: relative;
+	left: 55%;
+	top: 300px;
+	z-index: 2;
+	background-color: rgba(191,184,184,0.35);
+	width: 500px;
+	height:200px;
+}
+#chimage{
+	position: relative;
+	top: 60%;
+    left:0%;
+	z-index: -1;
+}
+#ci{
+	top: 15%;
+	position: absolute;
+	height: 50%;
+	left: 0%;
+}
+/* Michaela Style */
+/*Font*/
+
+
+/*Creatures*/
+
+
+.creature-logo{
+	font-family: "BebasNeue",sans-serif;
+	font-size: 60px;
+	margin-left: 40px;
+	margin-top: 30px;
+	padding-right: 70px; 
+	background-color: #303030;
+	float: left;
+}
+
+.creature-nav{
+	font-family: "BebasNeue",sans-serif;
+	float: right;
+	z-index: 2;
+	margin-top: 50px;
+	margin-right: 100px;
+	font-size: 20px;
+}
+
+#about{
+	margin-top: -8px;
+	margin-left: 90px;
+}
+
+#creatures{
+	margin-left: 160px;
+	margin-top: -5px;
+}
+
+#biomes{
+	margin-left: 210px;
+	margin-top: -70px;
+}
+
+#character{
+	margin-left: 290px;
+	margin-top: 40px;
+}
+
+.creature-nav a{
+	color: #FFF;
+	text-decoration: none;
+	border:0px solid #303030;
+	padding: 5px;
+}
+
+.creature-nav a:hover{
+	color: #303030;
+}
+
+.creature-title{
+	position: absolute;
+	left: 0%;
+	top: 65%;
+	font-family: 'BebasNeue';
+	font-size: 500%;
+	z-index: 5;
+	color:#333;
+}
+
+.creature-content{
+	position: absolute;
+	right: 15%;
+	top: 40%;
+	width: 20%;
+	opacity: 0;
+	font-size: 120%;
+	color: #000;
+	font-family: "Arsenal-Regular",sans-serif;
+}	
+
+.over-content{
+	position: absolute;
+	right: 8%;
+	top:10%;
+	color:#898b8e;
+	transform: rotate(90deg);
+	font-family: "Arsenal-Regular",sans-serif;
+	font-size: 180%;
+}
+.creature-over-img img{
+	z-index:10;
+	width:30%;
+	top:20%;
+}
+.creature-img img{
+	z-index: -1;
+	width: 55%;
+	position: absolute;
+	left: 0%;
+	top:30%;
+}
+.crt-img img{
+	z-index: -1;
+	top: 15%;
+	width: 30%;
+	/*position: absolute;*/
+	left: 0%;
+}
+.next{
+	position: absolute;
+	right: 5%;
+	bottom:3%;
+	font-family: 'BebasNeue';
+	font-size: 5em;
+	cursor: pointer;
+	color: #fff;
+}
+.next:hover{
+		color:#000;
+}
+/* NJ CsS */
+.aboutBody{
+	background-color: #fd8c00;
+}
+.right{
+	position: absolute;
+	z-index: -1;
+	right:0%;
+	top:-2%;
+	height:105%;
+}
+#aboutText{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	width: 30%;
+	background-color: rgba(250,115,1,0.5);
+	position: absolute;
+	top:38%;
+	left:17%;
+	font-size: 110%;
+	font-family: "Arsenal-Regular",sans-serif;
+}
+.biomeh1{
+	z-index: 100;
+	position: absolute;
+	top:5%;
+	left: 20%;
+	font-size:6em;
+	font-family: "Zelda", sans-serif;
+	color: #000;
+}
+.topFloat{
+	z-index: 2;
+	position: absolute;
+	background-color: rgba(220,130,1,0.5);
+	width: 15%;
+	left:50%;
+	top:20%;
+	height:20%;
+}
+.topFloat2{
+	position: absolute;
+	background-color: rgba(255,180,1,0.5);
+	width: 35%;
+	left:10%;
+	top:40%;
+	height:40%;
+}
+.topFloatcr{
+	z-index: 0;
+	position: absolute;
+	background-color: rgba(7,85,20,0.5);
+	width: 15%;
+	right:10%;
+	bottom:15%;
+	height:50%;
+}
+.topFloatcr2{
+	z-index: 0;
+	position: absolute;
+	background-color: rgba(50,180,70,0.5);
+	width: 28%;
+	right:22%;
+	bottom:15%;
+	height:25%;
+}
+.topFloatb{
+	z-index: -1;
+	position: absolute;
+	background-color: rgba(60,60,100,0.5);
+	width: 15%;
+	left:50%;
+	top:10%;
+	height:20%;
+}
+.topFloatb2{
+	z-index: -1;
+	position: absolute;
+	background-color: rgba(100,100,200,0.5);
+	width: 35%;
+	right:30%;
+	bottom:10%;
+	height:40%;
+}
+.back {
+	transform: rotateY(180deg);
+}
+.left{
+	position: absolute;
+	z-index: -2;
+	left:0%;
+	top:-2%;
+	height:105%;
+}
+/*char  */
+#charBody{
+	background-color: #ab0303;
+}
+#about-title{
+	z-index: 10;
+	background-color: rgba(220,130,1,0.5);
+}
+#char-title{
+	position: absolute;
+	left:30%;
+	top:15%;
+}
+.flip-container {
+	z-index: 5;
+	perspective: 1000px;
+}
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+	width: 500px;
+	height:200px;
+}
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 5;
+	transform: rotateY(0deg);
+}
+.frontText{
+	color:#000;
+}
+.backText{
+	color:#f3f2f1;
+  	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+}
+.flip-container2 {
+	z-index: 5;
+	perspective: 1000px;
+}
+.flip-container2:hover .flipper2, .flip-container2.hover .flipper2 {
+	transform: rotateY(180deg);
+}
+
+.flip-container2, .front2, .back2 {
+	width: 500px;
+	height:200px;
+}
+.flipper2 {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front2, .back2 {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front2 {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+.frontText2{
+	color:#f3f2f1;
+}
+.backText2{
+  	-webkit-transform:rotateY(180deg);
+	-moz-transform:rotateY(180deg);
+	-o-transform:rotateY(180deg);
+	-ms-transform:rotateY(180deg);
+}
+.topFloatC2{
+	position: absolute;
+	background-color: rgba(228,10,9,0.5);
+	width: 15%;
+	left: 40%;
+	top:40%;
+	height:20%;
+}
+.topFloat2inverse{
+	position: absolute;
+	background-color: rgba(102,4,9,0.5);
+	width: 35%;
+	left:60%;
+	top:21%;
+	height:40%;
+}
+.flipper2 {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+.front, .back {
+	backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.front {
+	z-index: 2;
+	transform: rotateY(0deg);
+}
+#charText{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	width: 30%;
+	background-color: rgba(113,0,5,0.5);
+	position: absolute;
+	top:45%;
+	right:17%;
+	font-size: 110%;
+	color:#998e8f;
+	font-family: "Arsenal-Regular",sans-serif;
+}
+#creature-body{
+	background-color: #067c01;
+}
+.biome-body{
+	background-color: #083f8e;
+}
+.creature-h{
+	z-index: 100;
+	position: absolute;
+	top:8%;
+	left: 30%;
+	font-size:8em;
+	font-family: "Zelda", sans-serif;
+	color: #000;
+}
+.team{
+	padding-left: 5%;
+	padding-right: 5%;
+	padding-bottom: 2%;
+	padding-top: 2%;
+	width: 10%;
+	float: left;
+	list-style-type: none;
+	background-color: rgba(250,115,1,0.5);
+	position: relative;
+	margin-top: 25%;
+	font-family: "Arsenal-Regular",sans-serif; */
+}
+
+
+.team img:hover{
+	opacity: 0.5
+}
+
+.team img{
+	width: 80%;
+}
+#michaela img{
+	width: 140%;
+}
+#Nw img{
+	width: 100%;
+}
+#meet{
+	font-family: "Arsenal-Regular",sans-serif;
+	color: #fff;
+	
+	position: absolute;
+	margin-top: 25%;
+}
+#nightwatch{
+	position: absolute;
+	right:5%;
+	top:0%;
+	list-style-type: none;
+	font-family: "Arsenal-Regular",sans-serif; */
+}
+#nightwatch img{
+	width: 20vw;
+	margin: auto 0;
+	float:left;
+}
+#nightwatch img:hover{
+	opacity: 0.5%
+}
+#meet2{
+	font-family: "BebasNeue",sans-serif;
+	color: #000;
+	top: 100%;
+	position: absolute;
+	
+}
+
+/*modal content */
+/* Outer */
+.popup {
+    width:100%;
+    height:100%;
+    display:none;
+    position:fixed;
+    top:0px;
+    left:0px;
+    background:rgba(0,0,0,0.75);
+    z-index: 2;
+}
+ 
+/* Inner */
+.popup-inner {
+    max-width:700px;
+    width:90%;
+    padding:40px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    -webkit-transform:translate(-50%, -50%);
+    transform:translate(-50%, -50%);
+  
+    border-radius:3px;
+    background:rgb(24, 24, 25);
+}
+ 
+/* Close Button */
+.popup-close {
+    width:30px;
+    height:30px;
+    padding-top:4px;
+    display:inline-block;
+    position:absolute;
+    top:0px;
+    right:0px;
+    transition:ease 0.25s all;
+    -webkit-transform:translate(50%, -50%);
+    transform:translate(50%, -50%);
+    border-radius:1000px;
+    background:rgba(0,0,0,0.8);
+    font-family:Arial, Sans-Serif;
+    font-size:20px;
+    text-align:center;
+    line-height:100%;
+    color:#fff;
+}
+ 
+.popup-close:hover {
+    -webkit-transform:translate(50%, -50%) rotate(180deg);
+    transform:translate(50%, -50%) rotate(180deg);
+    background:rgba(0,0,0,1);
+    text-decoration:none;
+}
+
+.popHead{
+	font-family: "Arsenal-Regular", Sans-Serif;
+	color: #fff;
+}
+.rank{
+	font-family: "Economica-Regular", sans-serif;
+	font-size: 140%;
+	color:#babac6;
+}
+.popbod{
+	font-family: "Arsenal-Regular", Sans-Serif;
+	color:#babac6;
+}
+.btnhead{
+	color:#303030;
+	text-decoration: none;
+}
+.pic li a h4 .btnhead{
+	text-decoration: none;
+}
+.popclose{
+	font-family: "Economica-Regular",sans-serif;
+	font-size: 130%;
+	text-decoration: none;
+	color:#e04a5b;
+
+}
+.popclose:hover{
+	color:#fff;
+}
+/*home */

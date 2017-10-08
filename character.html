@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+    <head>
+        <meta charset="utf-8"/>
+		<title>Cataclysm About</title> 
+      	<link href="style.css" type="text/css" rel="stylesheet">
+		<script src="jquery-3.2.1.js"></script>
+		<script src="script.js"></script>
+     
+        <script type="text/javascript">
+            var currImageIndex=0;
+            function nextImage()
+            {
+                currImageIndex=(currImageIndex+1)%3;  
+                var currentImg=document.getElementById('ci');
+                currentImg.src="images/char"+currImageIndex+".png";
+            }
+        </script>
+    </head>
+    <body id="charBody">
+        
+    	<div class="creature-nav">
+            <div>
+                <a href="index.html">Home</a>
+            </div>
+            <div id="about">
+                <a href="about.html">About</a>
+            </div>
+            <div id="creatures">
+                <a href="bomb-cactus.html">Creatures</a>
+            </div>
+            <div id="biomes">
+                <a href="desert.html">Biomes</a>
+            </div>
+            <div id="character">
+                <a href="character.html">Character</a>
+            </div>
+        </div>
+    	<br/>
+        <img src="images/charbg.png" class="left"/>
+		<div class="flip-container" id="char-title" ontouchstart="this.classList.toggle('hover');">
+			<div class="flipper">
+				<div class="front" id="about-front">
+					<center><h1 class="frontText">Character</h1></center>
+				</div>
+				<div class="back">
+					<center><h1 class="backText">Character</h1></center>
+				</div>
+			</div>
+		</div>
+
+		<div class="topFloatC2"></div>
+		<div class="topFloat2inverse"></div>
+        <div onclick="nextImage()">
+            <img src="images/char0.png" alt="char image" id="ci"/>
+        </div>
+		<div id="charText">
+			<p > Callan's home is suddenly destroyed and his only hope is to run, as the world around him begins to attack him.
+            He knows of a place in a distant land where it may be safe. However, he is unsure of the path there and the world is treacherous. 
+            Abilities to be found: <br />
+                <ul> 
+                    <li> Shield</li>
+                    <li> Double Jump </li>
+                    <li> Dash </li>
+                </ul>
+
+                Within level 2, combinations of these abilities emerge. 
+            </p>
+		</div>
+        </div>
+	 </body>
+</html>
