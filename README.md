@@ -4,7 +4,7 @@ Phase 2:
 https://cataclysm.000webhostapp.com/character.html
 
 Phase3: http://cataclysm.000webhostapp.com/index.html
- Phase 1: 
+Phase 1: 
 Introduction
 
 For this project, we have been tasked with creating an interactive, advertising website for the game we are developing for IMY 300. The game is a 3D low poly survival game and consists of three levels. We plan to incorporate several of the design trends that have been taught in class. The website will be designed and crafted to maximise good UX design patterns and trends. All content generated for the website will be created by us for the intents of this project. This is our proposed design: 
