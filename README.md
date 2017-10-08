@@ -1,4 +1,9 @@
 # 2017_IMY320_Empty_Coffee_Cups
+
+Phase 2: 
+https://cataclysm.000webhostapp.com/character.html
+
+Phase3: http://cataclysm.000webhostapp.com/index.html
  Phase 1: 
 Introduction
 
@@ -38,10 +43,8 @@ Biomes / Creatures Page
  
 The creatures and biomes pages will be designed similarly. We chose red as a bold contrast to the black. This serves to link with the vivid color trend, also red is a predominant hue in level one of the game which is a desert. We used the polygon block as a background to the wolf to add a rich background and the style of the game is low poly. It’s beige to match the idea of level one being a desert. We’ve used the two-thirds placement to create an asymmetrical look. The heading “desert fox” will animate in. The individual links in the navigation are animated when hovered over. The text “lorem” on the side will rotate when hovered over and expand when clicked on: 
  
-Phase 2: 
-https://cataclysm.000webhostapp.com/character.html
 
-Phase3: http://cataclysm.000webhostapp.com/index.html
+
 Bibliography
 Gambiero Bodini. (2017). Gambiero Bodini. Retrieved from GambieroBodini.com: http://www.giampierobodino.com/en/
 Pacura, P. (2017, January 23). Web Design Trends for 2017. Retrieved from AWWWARDS.com: https://www.awwwards.com/web-design-trends-for-2017.html
